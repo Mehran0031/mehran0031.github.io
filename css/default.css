@@ -4,13 +4,13 @@
 }
 .nav a:hover{
 	text-decoration: underlined;
-	text-aling:center;
+	text-align:center;
 	font-size: 21pt;
 	color: #154B01;	
 }
 
 .nav {	
-	text-align: center;	
+	text-align: center;
 }
 .nav ul li{
 	
@@ -43,7 +43,7 @@
 	padding-top: 25px;
 	padding-bottom: 25px;
 	color: black;
-	font-size: 16pt;
+	font-size: 16pt; 
 }
 body{
 	background-color:#E5E5C8;
@@ -56,5 +56,30 @@ body{
 	margin-left:30px;
 	margin-top: 30px;
 }
+.contact{
+	text-decoration: underlined;
+	text-align: center;
+	font-size: 10pt;
+	position: center;
+}
+
+.container{
+	width: 996px;
+	margin: 0 auto;
+	height: 2000px;
+}
  
+.dump{
+    border: 0px;
+	margin: 10px;
+	height: 400px;
+    float: left;
+}
+
+.dump img{
+	height: 400px;
+	width: 300px;
+}
+
+
 
