@@ -81,12 +81,7 @@ body{
 .dump img{
 	height: 400px;
 	width: 300px;
-}
-.div {
-	border: 0px;
-	margin: 10px;
-	height: 400px;
-    float: left;
+	float: right;
 }
 
 
