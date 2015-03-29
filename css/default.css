@@ -44,6 +44,8 @@
 	padding-bottom: 25px;
 	color: black;
 	font-size: 16pt; 
+	width: 100%;
+	float: left;
 }
 body{
 	background-color:#E5E5C8;
@@ -53,8 +55,8 @@ body{
 	width: 10%;
 	height:10%;
 	float: left;
-	margin-left:30px;
-	margin-top: 30px;
+/*	margin-left:30px;
+	margin-top: 30px;*/
 }
 .contact{
 	text-decoration: underlined;
@@ -79,6 +81,12 @@ body{
 .dump img{
 	height: 400px;
 	width: 300px;
+}
+.div {
+	border: 0px;
+	margin: 10px;
+	height: 400px;
+    float: left;
 }
 
 
