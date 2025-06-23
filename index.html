@@ -3,19 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Digital Harmony Studio - AI-Powered Music Generation & Global Distribution</title>
-    <meta name="description" content="Revolutionary AI music generation platform with 150+ streaming platform distribution. Create, distribute, and monetize music across Spotify, Apple Music, YouTube, Instagram, TikTok, Snapchat, and more.">
-    <meta name="keywords" content="AI music generation, music distribution, Spotify, Apple Music, YouTube, Instagram, TikTok, Snapchat, Digital Harmony Studio">
+    <title>Mehran Aghazadeh - Digital Harmony Studio Founder & Software Testing Professional</title>
+    <meta name="description" content="Software Testing Professional & AI Music Innovation Pioneer. Founder of Digital Harmony Studio - AI-powered music generation and global distribution platform.">
+    <meta name="keywords" content="Mehran Aghazadeh, Digital Harmony Studio, AI music, software testing, ITMG Agile Tester, music distribution">
     <meta name="author" content="Mehran Aghazadeh">
     
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://mehran0031.github.io/dh/">
-    <meta property="og:title" content="Digital Harmony Studio - AI Music Innovation">
-    <meta property="og:description" content="Revolutionary AI-powered music generation and global distribution platform">
+    <meta property="og:url" content="https://mehran0031.github.io/">
+    <meta property="og:title" content="Mehran Aghazadeh - Digital Harmony Studio Founder">
+    <meta property="og:description" content="Software Testing Professional & AI Music Innovation Pioneer">
     
     <!-- Favicon -->
-    <link rel="icon" type="image/jpeg" href="dh_logo_main.jpg">
+    <link rel="icon" type="image/x-icon" href="https://mehran0031.github.io/dh/dh_logo_main.jpg">
     
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -24,7 +24,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     
     <style>
-        /* Digital Harmony Studio with Label 10 Design Integration */
+        /* Label 10 Inspired Design with Digital Harmony Studio Integration */
         :root {
             /* Label 10 Colors */
             --brown-gold: #C6A581;
@@ -33,20 +33,18 @@
             --dark-brown: #262421;
             
             /* Digital Harmony Colors */
-            --primary-color: #1a1f3a;
-            --secondary-color: #2c3e50;
-            --accent-color: #d4af37;
-            --text-light: #ecf0f1;
-            --white: #ffffff;
-            
-            /* Gradients */
-            --gradient-primary: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
-            --gradient-secondary: linear-gradient(45deg, var(--brown-gold) 0%, var(--accent-color) 100%);
-            --gradient-overlay: linear-gradient(135deg, rgba(26, 31, 58, 0.9) 0%, rgba(44, 62, 80, 0.8) 100%);
+            --dh-navy: #1a1f3a;
+            --dh-gold: #d4af37;
+            --dh-bronze: #cd7f32;
             
             /* Typography */
             --font-primary: 'Playfair Display', serif;
             --font-secondary: 'Inter', sans-serif;
+            
+            /* Gradients */
+            --gradient-primary: linear-gradient(135deg, var(--royal-blue) 0%, var(--dh-navy) 100%);
+            --gradient-gold: linear-gradient(45deg, var(--brown-gold) 0%, var(--dh-gold) 100%);
+            --gradient-overlay: linear-gradient(135deg, rgba(34, 50, 98, 0.9) 0%, rgba(26, 31, 58, 0.8) 100%);
             
             /* Transitions */
             --transition: 0.3s ease-in-out;
@@ -65,79 +63,9 @@
         body {
             font-family: var(--font-secondary);
             line-height: 1.6;
-            color: var(--text-light);
-            background-color: var(--primary-color);
+            color: var(--dark-brown);
+            background-color: #ffffff;
             overflow-x: hidden;
-        }
-        
-        /* Loading Screen */
-        .loading-screen {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: var(--gradient-primary);
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            z-index: 9999;
-            transition: opacity 0.5s ease-in-out;
-        }
-        
-        .loading-content {
-            text-align: center;
-            color: var(--white);
-        }
-        
-        .loading-logo {
-            width: 80px;
-            height: 80px;
-            margin: 0 auto 1rem;
-            border-radius: 50%;
-            background: var(--gradient-secondary);
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 2rem;
-            font-weight: 700;
-            color: var(--primary-color);
-            animation: pulse 2s ease-in-out infinite;
-            background-image: url('dh_logo_main.jpg');
-            background-size: cover;
-            background-position: center;
-        }
-        
-        @keyframes pulse {
-            0%, 100% { transform: scale(1); }
-            50% { transform: scale(1.1); }
-        }
-        
-        .loading-text {
-            font-family: var(--font-primary);
-            font-size: 1.5rem;
-            margin-bottom: 1rem;
-        }
-        
-        .loading-bar {
-            width: 200px;
-            height: 4px;
-            background: rgba(255, 255, 255, 0.2);
-            border-radius: 2px;
-            overflow: hidden;
-            margin: 0 auto;
-        }
-        
-        .loading-progress {
-            width: 0%;
-            height: 100%;
-            background: var(--gradient-secondary);
-            border-radius: 2px;
-            animation: loading 3s ease-in-out forwards;
-        }
-        
-        @keyframes loading {
-            to { width: 100%; }
         }
         
         /* Navigation */
@@ -146,55 +74,28 @@
             top: 0;
             left: 0;
             right: 0;
-            background: rgba(26, 31, 58, 0.95);
+            background: rgba(255, 255, 255, 0.95);
             backdrop-filter: blur(10px);
-            border-bottom: 1px solid rgba(198, 165, 129, 0.2);
+            border-bottom: 1px solid var(--light-gray);
             z-index: 1000;
             transition: var(--transition);
-            padding: 1rem 0;
         }
         
         .nav-container {
             max-width: 1200px;
             margin: 0 auto;
-            padding: 0 2rem;
+            padding: 1rem 2rem;
             display: flex;
             justify-content: space-between;
             align-items: center;
         }
         
         .nav-logo {
-            display: flex;
-            align-items: center;
-            gap: 1rem;
-            text-decoration: none;
-        }
-        
-        .logo-img {
-            width: 40px;
-            height: 40px;
-            border-radius: 50%;
-            object-fit: cover;
-        }
-        
-        .logo-text {
-            display: flex;
-            flex-direction: column;
-        }
-        
-        .logo-main {
             font-family: var(--font-primary);
-            font-size: 1.2rem;
+            font-size: 1.5rem;
             font-weight: 700;
-            color: var(--white);
-            line-height: 1;
-        }
-        
-        .logo-sub {
-            font-size: 0.8rem;
-            color: var(--brown-gold);
-            text-transform: uppercase;
-            letter-spacing: 1px;
+            color: var(--royal-blue);
+            text-decoration: none;
         }
         
         .nav-menu {
@@ -205,7 +106,7 @@
         
         .nav-link {
             text-decoration: none;
-            color: var(--text-light);
+            color: var(--dark-brown);
             font-weight: 500;
             text-transform: uppercase;
             letter-spacing: 0.5px;
@@ -225,21 +126,12 @@
             left: 0;
             width: 0;
             height: 2px;
-            background: var(--gradient-secondary);
+            background: var(--gradient-gold);
             transition: var(--transition);
         }
         
         .nav-link:hover::after {
             width: 100%;
-        }
-        
-        .nav-toggle {
-            display: none;
-            background: none;
-            border: none;
-            color: var(--white);
-            font-size: 1.5rem;
-            cursor: pointer;
         }
         
         /* Hero Section */
@@ -284,13 +176,13 @@
             font-family: var(--font-primary);
             font-size: 3.5rem;
             font-weight: 700;
-            color: var(--white);
+            color: white;
             margin-bottom: 1rem;
             line-height: 1.2;
         }
         
-        .hero-highlight {
-            background: var(--gradient-secondary);
+        .hero-name {
+            background: var(--gradient-gold);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             background-clip: text;
@@ -330,8 +222,8 @@
         }
         
         .btn-primary {
-            background: var(--gradient-secondary);
-            color: var(--primary-color);
+            background: var(--gradient-gold);
+            color: var(--dark-brown);
         }
         
         .btn-primary:hover {
@@ -341,13 +233,13 @@
         
         .btn-secondary {
             background: transparent;
-            color: var(--white);
+            color: white;
             border: 2px solid var(--brown-gold);
         }
         
         .btn-secondary:hover {
             background: var(--brown-gold);
-            color: var(--primary-color);
+            color: var(--dark-brown);
         }
         
         .hero-visual {
@@ -357,99 +249,67 @@
             position: relative;
         }
         
-        .music-visualization {
+        .profile-container {
             position: relative;
             width: 300px;
             height: 300px;
         }
         
-        .vinyl-record {
+        .profile-image {
             width: 100%;
             height: 100%;
             border-radius: 50%;
-            background: radial-gradient(circle at center, #1a1a1a 20%, #333 21%, #333 40%, #1a1a1a 41%);
-            position: relative;
-            animation: spin 10s linear infinite;
+            object-fit: cover;
+            border: 4px solid var(--brown-gold);
             box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
         }
         
-        @keyframes spin {
-            from { transform: rotate(0deg); }
-            to { transform: rotate(360deg); }
+        .floating-elements {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
         }
         
-        .vinyl-record::before {
-            content: '';
+        .floating-icon {
             position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(198, 165, 129, 0.3);
+            border-radius: 50%;
             width: 60px;
             height: 60px;
-            border-radius: 50%;
-            background: var(--gradient-secondary);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--brown-gold);
+            font-size: 1.5rem;
+            animation: float 3s ease-in-out infinite;
         }
         
-        .sound-waves {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            width: 400px;
-            height: 400px;
-            pointer-events: none;
-        }
-        
-        .wave {
-            position: absolute;
-            border: 2px solid var(--brown-gold);
-            border-radius: 50%;
-            opacity: 0;
-            animation: wave 3s ease-out infinite;
-        }
-        
-        .wave:nth-child(1) {
-            width: 100px;
-            height: 100px;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
+        .floating-icon:nth-child(1) {
+            top: -20px;
+            right: -20px;
             animation-delay: 0s;
         }
         
-        .wave:nth-child(2) {
-            width: 200px;
-            height: 200px;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
+        .floating-icon:nth-child(2) {
+            bottom: -20px;
+            left: -20px;
             animation-delay: 1s;
         }
         
-        .wave:nth-child(3) {
-            width: 300px;
-            height: 300px;
+        .floating-icon:nth-child(3) {
             top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
+            right: -40px;
             animation-delay: 2s;
         }
         
-        @keyframes wave {
-            0% {
-                opacity: 1;
-                transform: translate(-50%, -50%) scale(0);
-            }
-            100% {
-                opacity: 0;
-                transform: translate(-50%, -50%) scale(1);
-            }
-        }
-        
-        /* Social Media Integration Section */
-        .social-integration {
+        /* Digital Harmony Studio Section */
+        .dh-studio {
             padding: 6rem 0;
-            background: linear-gradient(135deg, var(--secondary-color) 0%, var(--primary-color) 100%);
+            background: linear-gradient(135deg, var(--light-gray) 0%, #ffffff 100%);
         }
         
         .container {
@@ -465,8 +325,8 @@
         
         .section-tag {
             display: inline-block;
-            background: var(--gradient-secondary);
-            color: var(--primary-color);
+            background: var(--gradient-gold);
+            color: var(--dark-brown);
             padding: 0.5rem 1.5rem;
             border-radius: 25px;
             font-size: 0.9rem;
@@ -479,499 +339,267 @@
         .section-title {
             font-family: var(--font-primary);
             font-size: 3rem;
-            color: var(--white);
+            color: var(--royal-blue);
             margin-bottom: 1rem;
             line-height: 1.2;
         }
         
         .section-subtitle {
             font-size: 1.2rem;
-            color: rgba(255, 255, 255, 0.8);
+            color: var(--dark-brown);
+            opacity: 0.8;
             max-width: 600px;
             margin: 0 auto;
             line-height: 1.6;
         }
         
-        .social-platforms {
+        .dh-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            gap: 2rem;
+            grid-template-columns: 1fr 1fr;
+            gap: 4rem;
+            align-items: center;
             margin-top: 4rem;
         }
         
-        .platform-card {
-            background: rgba(255, 255, 255, 0.05);
-            backdrop-filter: blur(10px);
-            border: 1px solid rgba(198, 165, 129, 0.2);
-            border-radius: 20px;
-            padding: 2rem;
-            text-align: center;
-            transition: var(--transition);
-            position: relative;
-            overflow: hidden;
-        }
-        
-        .platform-card::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            height: 4px;
-            background: var(--gradient-secondary);
-            transform: scaleX(0);
-            transition: var(--transition);
-        }
-        
-        .platform-card:hover::before {
-            transform: scaleX(1);
-        }
-        
-        .platform-card:hover {
-            transform: translateY(-5px);
-            border-color: var(--brown-gold);
-        }
-        
-        .platform-icon {
-            font-size: 3rem;
-            margin-bottom: 1rem;
-            color: var(--brown-gold);
-        }
-        
-        .platform-name {
+        .dh-content h3 {
             font-family: var(--font-primary);
-            font-size: 1.2rem;
-            color: var(--white);
-            margin-bottom: 0.5rem;
-        }
-        
-        .platform-description {
-            color: rgba(255, 255, 255, 0.8);
-            font-size: 0.9rem;
-        }
-        
-        /* Services Section */
-        .services {
-            padding: 6rem 0;
-            background: var(--gradient-primary);
-        }
-        
-        .services-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-            gap: 2rem;
-            margin-top: 4rem;
-        }
-        
-        .service-card {
-            background: rgba(255, 255, 255, 0.05);
-            backdrop-filter: blur(10px);
-            border: 1px solid rgba(198, 165, 129, 0.2);
-            border-radius: 20px;
-            padding: 2rem;
-            transition: var(--transition);
-            position: relative;
-            overflow: hidden;
-        }
-        
-        .service-card::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            height: 4px;
-            background: var(--gradient-secondary);
-            transform: scaleX(0);
-            transition: var(--transition);
-        }
-        
-        .service-card:hover::before {
-            transform: scaleX(1);
-        }
-        
-        .service-card:hover {
-            transform: translateY(-5px);
-            border-color: var(--brown-gold);
-        }
-        
-        .service-icon {
-            position: relative;
-            width: 60px;
-            height: 60px;
+            font-size: 2rem;
+            color: var(--royal-blue);
             margin-bottom: 1.5rem;
         }
         
-        .service-icon i {
-            font-size: 2rem;
+        .dh-content p {
+            font-size: 1.1rem;
+            color: var(--dark-brown);
+            margin-bottom: 1.5rem;
+            line-height: 1.7;
+        }
+        
+        .dh-features {
+            list-style: none;
+            margin-bottom: 2rem;
+        }
+        
+        .dh-features li {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            margin-bottom: 1rem;
+            font-size: 1rem;
+            color: var(--dark-brown);
+        }
+        
+        .dh-features i {
             color: var(--brown-gold);
+            font-size: 1.2rem;
+        }
+        
+        .dh-visual {
+            background: var(--gradient-primary);
+            border-radius: 20px;
+            padding: 3rem;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .dh-visual::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(circle, rgba(198, 165, 129, 0.1) 0%, transparent 70%);
+            animation: rotate 20s linear infinite;
+        }
+        
+        @keyframes rotate {
+            from { transform: rotate(0deg); }
+            to { transform: rotate(360deg); }
+        }
+        
+        .dh-logo {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            margin: 0 auto 2rem;
+            border: 3px solid var(--brown-gold);
+            position: relative;
+            z-index: 2;
+            object-fit: cover;
+        }
+        
+        .dh-stats {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 2rem;
+            margin-top: 2rem;
             position: relative;
             z-index: 2;
         }
         
-        .icon-bg {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: var(--gradient-secondary);
-            border-radius: 50%;
-            opacity: 0.2;
-            transform: scale(0);
-            transition: var(--transition);
+        .stat-item {
+            text-align: center;
         }
         
-        .service-card:hover .icon-bg {
-            transform: scale(1);
-            opacity: 0.3;
-        }
-        
-        .service-title {
+        .stat-number {
+            display: block;
             font-family: var(--font-primary);
-            font-size: 1.5rem;
-            color: var(--white);
-            margin-bottom: 1rem;
-        }
-        
-        .service-description {
-            color: rgba(255, 255, 255, 0.8);
-            margin-bottom: 1.5rem;
-            line-height: 1.6;
-        }
-        
-        .service-features {
-            list-style: none;
-            margin-bottom: 1.5rem;
-        }
-        
-        .service-features li {
-            display: flex;
-            align-items: center;
-            gap: 0.5rem;
+            font-size: 2rem;
+            font-weight: 700;
+            color: var(--brown-gold);
             margin-bottom: 0.5rem;
+        }
+        
+        .stat-label {
             color: rgba(255, 255, 255, 0.9);
             font-size: 0.9rem;
-        }
-        
-        .service-features i {
-            color: var(--brown-gold);
-            font-size: 0.8rem;
-        }
-        
-        .service-link a {
-            color: var(--brown-gold);
-            text-decoration: none;
-            font-weight: 600;
-            display: inline-flex;
-            align-items: center;
-            gap: 0.5rem;
-            transition: var(--transition);
-        }
-        
-        .service-link a:hover {
-            color: var(--white);
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
         }
         
         /* About Section */
         .about {
             padding: 6rem 0;
-            background: linear-gradient(135deg, var(--secondary-color) 0%, var(--primary-color) 100%);
+            background: white;
         }
         
-        .about-content {
+        .about-grid {
             display: grid;
             grid-template-columns: 1fr 1fr;
             gap: 4rem;
             align-items: center;
         }
         
-        .about-text h2 {
+        .about-content h3 {
             font-family: var(--font-primary);
-            font-size: 3rem;
-            color: var(--white);
+            font-size: 2rem;
+            color: var(--royal-blue);
             margin-bottom: 1.5rem;
-            line-height: 1.2;
         }
         
-        .about-description {
+        .about-content p {
             font-size: 1.1rem;
-            color: rgba(255, 255, 255, 0.9);
+            color: var(--dark-brown);
             margin-bottom: 1.5rem;
             line-height: 1.7;
         }
         
-        .about-features {
+        .skills-grid {
             display: grid;
             grid-template-columns: repeat(2, 1fr);
-            gap: 1.5rem;
+            gap: 1rem;
             margin-top: 2rem;
         }
         
-        .feature-item {
-            display: flex;
-            align-items: center;
-            gap: 1rem;
-            background: rgba(255, 255, 255, 0.05);
+        .skill-item {
+            background: var(--light-gray);
             padding: 1rem;
             border-radius: 10px;
-            border: 1px solid rgba(198, 165, 129, 0.2);
-        }
-        
-        .feature-item i {
-            font-size: 1.5rem;
-            color: var(--brown-gold);
-        }
-        
-        .feature-text h4 {
-            color: var(--white);
-            margin-bottom: 0.25rem;
-        }
-        
-        .feature-text p {
-            color: rgba(255, 255, 255, 0.7);
-            font-size: 0.9rem;
-            margin: 0;
-        }
-        
-        .about-visual {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            position: relative;
-        }
-        
-        .stats-container {
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            gap: 2rem;
-            width: 100%;
-        }
-        
-        .stat-card {
-            background: rgba(255, 255, 255, 0.05);
-            backdrop-filter: blur(10px);
-            border: 1px solid rgba(198, 165, 129, 0.2);
-            border-radius: 15px;
-            padding: 2rem;
             text-align: center;
+            border: 2px solid transparent;
             transition: var(--transition);
         }
         
-        .stat-card:hover {
-            transform: translateY(-5px);
+        .skill-item:hover {
             border-color: var(--brown-gold);
+            transform: translateY(-2px);
         }
         
-        .stat-number {
-            font-family: var(--font-primary);
-            font-size: 2.5rem;
-            font-weight: 700;
+        .skill-item i {
+            font-size: 2rem;
             color: var(--brown-gold);
-            display: block;
             margin-bottom: 0.5rem;
         }
         
-        .stat-label {
-            color: var(--white);
+        .skill-item h4 {
             font-size: 1rem;
-            text-transform: uppercase;
-            letter-spacing: 0.5px;
+            color: var(--royal-blue);
+            margin-bottom: 0.5rem;
+        }
+        
+        .skill-item p {
+            font-size: 0.9rem;
+            color: var(--dark-brown);
+            opacity: 0.8;
+            margin: 0;
         }
         
         /* Contact Section */
         .contact {
             padding: 6rem 0;
             background: var(--gradient-primary);
+            color: white;
         }
         
         .contact-content {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 4rem;
-            align-items: start;
+            text-align: center;
+            max-width: 800px;
+            margin: 0 auto;
         }
         
-        .contact-info h2 {
+        .contact h2 {
             font-family: var(--font-primary);
             font-size: 3rem;
-            color: var(--white);
-            margin-bottom: 1.5rem;
-            line-height: 1.2;
-        }
-        
-        .contact-info p {
-            font-size: 1.1rem;
-            color: rgba(255, 255, 255, 0.9);
-            margin-bottom: 2rem;
-            line-height: 1.7;
-        }
-        
-        .contact-details {
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            gap: 1.5rem;
-            margin-bottom: 2rem;
-        }
-        
-        .contact-item {
-            background: rgba(255, 255, 255, 0.05);
-            padding: 1.5rem;
-            border-radius: 10px;
-            border: 1px solid rgba(198, 165, 129, 0.2);
-            text-align: center;
-        }
-        
-        .contact-item i {
-            font-size: 2rem;
-            color: var(--brown-gold);
             margin-bottom: 1rem;
         }
         
-        .contact-item h4 {
-            color: var(--white);
-            margin-bottom: 0.5rem;
+        .contact p {
+            font-size: 1.2rem;
+            margin-bottom: 3rem;
+            opacity: 0.9;
         }
         
-        .contact-item p {
-            color: rgba(255, 255, 255, 0.8);
-            margin: 0;
+        .contact-links {
+            display: flex;
+            justify-content: center;
+            gap: 1.5rem;
+            flex-wrap: wrap;
         }
         
-        .contact-item a {
-            color: var(--brown-gold);
-            text-decoration: none;
-            transition: var(--transition);
-        }
-        
-        .contact-item a:hover {
-            color: var(--white);
-        }
-        
-        .contact-form {
-            background: rgba(255, 255, 255, 0.05);
-            backdrop-filter: blur(10px);
-            border: 1px solid rgba(198, 165, 129, 0.2);
-            border-radius: 20px;
-            padding: 2rem;
-        }
-        
-        .form-group {
-            margin-bottom: 1.5rem;
-        }
-        
-        .form-group label {
-            display: block;
-            color: var(--white);
-            margin-bottom: 0.5rem;
-            font-weight: 500;
-        }
-        
-        .form-group input,
-        .form-group textarea {
-            width: 100%;
-            padding: 1rem;
-            border: 1px solid rgba(198, 165, 129, 0.3);
-            border-radius: 10px;
-            background: rgba(255, 255, 255, 0.05);
-            color: var(--white);
-            font-family: var(--font-secondary);
-            transition: var(--transition);
-        }
-        
-        .form-group input:focus,
-        .form-group textarea:focus {
-            outline: none;
-            border-color: var(--brown-gold);
+        .contact-link {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
             background: rgba(255, 255, 255, 0.1);
-        }
-        
-        .form-group textarea {
-            resize: vertical;
-            min-height: 120px;
-        }
-        
-        .form-submit {
-            width: 100%;
+            backdrop-filter: blur(10px);
             padding: 1rem 2rem;
-            background: var(--gradient-secondary);
-            color: var(--primary-color);
-            border: none;
             border-radius: 50px;
-            font-weight: 600;
-            cursor: pointer;
+            text-decoration: none;
+            color: white;
+            border: 1px solid rgba(198, 165, 129, 0.3);
             transition: var(--transition);
+            min-width: 200px;
+            justify-content: center;
         }
         
-        .form-submit:hover {
+        .contact-link:hover {
+            background: var(--brown-gold);
+            color: var(--dark-brown);
             transform: translateY(-2px);
-            box-shadow: 0 10px 25px rgba(198, 165, 129, 0.3);
+        }
+        
+        .contact-link i {
+            font-size: 1.2rem;
         }
         
         /* Footer */
         .footer {
-            background: var(--primary-color);
-            border-top: 1px solid rgba(198, 165, 129, 0.2);
-            padding: 3rem 0 1rem;
-        }
-        
-        .footer-content {
-            display: grid;
-            grid-template-columns: repeat(4, 1fr);
-            gap: 2rem;
-            margin-bottom: 2rem;
-        }
-        
-        .footer-section h4 {
-            font-family: var(--font-primary);
-            color: var(--brown-gold);
-            margin-bottom: 1rem;
-            font-size: 1.2rem;
-        }
-        
-        .footer-section p {
-            color: rgba(255, 255, 255, 0.8);
-            line-height: 1.6;
-            margin-bottom: 1rem;
-        }
-        
-        .footer-links {
-            list-style: none;
-        }
-        
-        .footer-links li {
-            margin-bottom: 0.5rem;
-        }
-        
-        .footer-links a {
-            color: rgba(255, 255, 255, 0.7);
-            text-decoration: none;
-            transition: var(--transition);
-        }
-        
-        .footer-links a:hover {
-            color: var(--brown-gold);
-        }
-        
-        .footer-bottom {
+            background: var(--dark-brown);
+            color: white;
             text-align: center;
-            padding-top: 2rem;
-            border-top: 1px solid rgba(198, 165, 129, 0.1);
+            padding: 2rem 0;
         }
         
-        .footer-bottom p {
-            color: rgba(255, 255, 255, 0.6);
-            margin: 0;
+        .footer p {
+            opacity: 0.8;
         }
         
         /* Responsive Design */
         @media (max-width: 768px) {
             .nav-menu {
                 display: none;
-            }
-            
-            .nav-toggle {
-                display: block;
             }
             
             .hero-container {
@@ -984,30 +612,10 @@
                 font-size: 2.5rem;
             }
             
-            .social-platforms {
-                grid-template-columns: repeat(2, 1fr);
-            }
-            
-            .services-grid {
-                grid-template-columns: 1fr;
-            }
-            
-            .about-content {
+            .dh-grid,
+            .about-grid {
                 grid-template-columns: 1fr;
                 gap: 2rem;
-            }
-            
-            .contact-content {
-                grid-template-columns: 1fr;
-                gap: 2rem;
-            }
-            
-            .contact-details {
-                grid-template-columns: 1fr;
-            }
-            
-            .footer-content {
-                grid-template-columns: repeat(2, 1fr);
             }
             
             .section-title {
@@ -1019,60 +627,28 @@
                 align-items: center;
             }
             
-            .stats-container {
-                grid-template-columns: 1fr;
-            }
-        }
-        
-        @media (max-width: 480px) {
-            .footer-content {
-                grid-template-columns: 1fr;
+            .contact-links {
+                flex-direction: column;
+                align-items: center;
             }
             
-            .about-features {
-                grid-template-columns: 1fr;
-            }
-            
-            .social-platforms {
+            .skills-grid {
                 grid-template-columns: 1fr;
             }
         }
     </style>
 </head>
 <body>
-    <!-- Loading Screen -->
-    <div class="loading-screen" id="loading-screen">
-        <div class="loading-content">
-            <div class="loading-logo"></div>
-            <div class="loading-text">Digital Harmony Studio</div>
-            <div class="loading-bar">
-                <div class="loading-progress"></div>
-            </div>
-        </div>
-    </div>
-
     <!-- Navigation -->
-    <nav class="navbar" id="navbar">
+    <nav class="navbar">
         <div class="nav-container">
-            <div class="nav-logo">
-                <img src="dh_logo_main.jpg" alt="Digital Harmony Studio" class="logo-img">
-                <div class="logo-text">
-                    <span class="logo-main">Digital Harmony</span>
-                    <span class="logo-sub">Studio</span>
-                </div>
-            </div>
-            
-            <div class="nav-menu" id="nav-menu">
+            <a href="#home" class="nav-logo">Mehran Aghazadeh</a>
+            <div class="nav-menu">
                 <a href="#home" class="nav-link">Home</a>
-                <a href="#social" class="nav-link">Social Media</a>
-                <a href="#services" class="nav-link">Services</a>
+                <a href="#digital-harmony" class="nav-link">Digital Harmony</a>
                 <a href="#about" class="nav-link">About</a>
                 <a href="#contact" class="nav-link">Contact</a>
             </div>
-            
-            <button class="nav-toggle" id="nav-toggle">
-                <i class="fas fa-bars"></i>
-            </button>
         </div>
     </nav>
 
@@ -1081,194 +657,103 @@
         <div class="hero-container">
             <div class="hero-content">
                 <h1>
-                    <span class="hero-highlight">AI-Powered</span><br>
-                    Music Generation &<br>
-                    Global Distribution
+                    <span class="hero-name">Mehran Aghazadeh</span><br>
+                    Software Testing Professional &<br>
+                    AI Music Innovation Pioneer
                 </h1>
-                <p class="hero-subtitle">Revolutionary Music Technology Platform</p>
+                <p class="hero-subtitle">Founder of Digital Harmony Studio</p>
                 <p class="hero-description">
-                    Create professional-quality music with advanced AI algorithms and distribute instantly 
-                    across 150+ streaming platforms and major social media networks including Spotify, 
-                    Apple Music, YouTube, Instagram, TikTok, Snapchat, Facebook, and Twitter.
+                    Combining systematic quality assurance expertise with cutting-edge AI music technology. 
+                    Leading the development of Digital Harmony Studio - an AI-powered music generation and 
+                    global distribution platform that's revolutionizing how music is created and shared worldwide.
                 </p>
                 <div class="hero-buttons">
-                    <a href="#social" class="btn btn-primary">
-                        <span>Explore Social Integration</span>
-                        <i class="fas fa-share-alt"></i>
+                    <a href="#digital-harmony" class="btn btn-primary">
+                        <span>Explore Digital Harmony</span>
+                        <i class="fas fa-music"></i>
                     </a>
                     <a href="#contact" class="btn btn-secondary">
-                        <span>Get Started</span>
-                        <i class="fas fa-play"></i>
+                        <span>Get In Touch</span>
+                        <i class="fas fa-envelope"></i>
                     </a>
                 </div>
             </div>
             
             <div class="hero-visual">
-                <div class="music-visualization">
-                    <div class="vinyl-record"></div>
-                    <div class="sound-waves">
-                        <div class="wave"></div>
-                        <div class="wave"></div>
-                        <div class="wave"></div>
+                <div class="profile-container">
+                    <img src="https://via.placeholder.com/300x300/223262/C6A581?text=MA" alt="Mehran Aghazadeh" class="profile-image">
+                    <div class="floating-elements">
+                        <div class="floating-icon">
+                            <i class="fas fa-music"></i>
+                        </div>
+                        <div class="floating-icon">
+                            <i class="fas fa-cog"></i>
+                        </div>
+                        <div class="floating-icon">
+                            <i class="fas fa-robot"></i>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Social Media Integration Section -->
-    <section id="social" class="social-integration">
+    <!-- Digital Harmony Studio Section -->
+    <section id="digital-harmony" class="dh-studio">
         <div class="container">
             <div class="section-header">
-                <span class="section-tag">Social Media Integration</span>
-                <h2 class="section-title">Multi-Platform Distribution</h2>
+                <span class="section-tag">Current Project</span>
+                <h2 class="section-title">Digital Harmony Studio</h2>
                 <p class="section-subtitle">
-                    Seamlessly distribute and share your AI-generated music across all major social media 
-                    platforms and streaming services with intelligent optimization for each platform.
+                    Revolutionary AI-powered music generation and global distribution platform, 
+                    integrating with 150+ streaming platforms and major social media networks.
                 </p>
             </div>
             
-            <div class="social-platforms">
-                <div class="platform-card">
-                    <div class="platform-icon">
-                        <i class="fab fa-instagram"></i>
-                    </div>
-                    <h3 class="platform-name">Instagram</h3>
-                    <p class="platform-description">Stories, Reels, and feed posts with music integration</p>
-                </div>
-                
-                <div class="platform-card">
-                    <div class="platform-icon">
-                        <i class="fab fa-tiktok"></i>
-                    </div>
-                    <h3 class="platform-name">TikTok</h3>
-                    <p class="platform-description">Short-form video content with trending music</p>
-                </div>
-                
-                <div class="platform-card">
-                    <div class="platform-icon">
-                        <i class="fab fa-snapchat-ghost"></i>
-                    </div>
-                    <h3 class="platform-name">Snapchat</h3>
-                    <p class="platform-description">Creative Kit integration and story sharing</p>
-                </div>
-                
-                <div class="platform-card">
-                    <div class="platform-icon">
-                        <i class="fab fa-facebook"></i>
-                    </div>
-                    <h3 class="platform-name">Facebook</h3>
-                    <p class="platform-description">Social sharing and community building</p>
-                </div>
-                
-                <div class="platform-card">
-                    <div class="platform-icon">
-                        <i class="fab fa-twitter"></i>
-                    </div>
-                    <h3 class="platform-name">Twitter</h3>
-                    <p class="platform-description">Real-time updates and engagement</p>
-                </div>
-                
-                <div class="platform-card">
-                    <div class="platform-icon">
-                        <i class="fab fa-youtube"></i>
-                    </div>
-                    <h3 class="platform-name">YouTube</h3>
-                    <p class="platform-description">Video content and music distribution</p>
-                </div>
-                
-                <div class="platform-card">
-                    <div class="platform-icon">
-                        <i class="fab fa-spotify"></i>
-                    </div>
-                    <h3 class="platform-name">Spotify</h3>
-                    <p class="platform-description">Music streaming and playlist placement</p>
-                </div>
-                
-                <div class="platform-card">
-                    <div class="platform-icon">
-                        <i class="fab fa-apple"></i>
-                    </div>
-                    <h3 class="platform-name">Apple Music</h3>
-                    <p class="platform-description">Premium music streaming service</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Services Section -->
-    <section id="services" class="services">
-        <div class="container">
-            <div class="section-header">
-                <span class="section-tag">Our Services</span>
-                <h2 class="section-title">Comprehensive Music Solutions</h2>
-                <p class="section-subtitle">
-                    From AI-powered music generation to global distribution and social media integration, 
-                    we provide everything you need to succeed in the modern music industry.
-                </p>
-            </div>
-            
-            <div class="services-grid">
-                <div class="service-card">
-                    <div class="service-icon">
-                        <i class="fas fa-robot"></i>
-                        <div class="icon-bg"></div>
-                    </div>
-                    <h3 class="service-title">AI Music Generation</h3>
-                    <p class="service-description">
-                        Advanced artificial intelligence algorithms trained on millions of tracks to generate 
-                        unique, professional-quality music across all genres and styles.
+            <div class="dh-grid">
+                <div class="dh-content">
+                    <h3>Transforming Music Creation</h3>
+                    <p>
+                        Digital Harmony Studio represents the convergence of artificial intelligence and musical creativity. 
+                        Our platform empowers artists worldwide with cutting-edge AI technology and comprehensive 
+                        distribution networks across streaming platforms and social media.
                     </p>
-                    <ul class="service-features">
-                        <li><i class="fas fa-check"></i> Multi-genre composition</li>
-                        <li><i class="fas fa-check"></i> Professional audio quality</li>
-                        <li><i class="fas fa-check"></i> Customizable parameters</li>
-                        <li><i class="fas fa-check"></i> Instant generation</li>
+                    <p>
+                        Currently integrating with major social media platforms including Snapchat, Instagram, TikTok, 
+                        Facebook, Twitter, and YouTube for seamless music sharing, with advanced AI algorithms trained 
+                        on millions of tracks to generate unique, professional-quality music across all genres.
+                    </p>
+                    
+                    <ul class="dh-features">
+                        <li><i class="fas fa-robot"></i> Advanced AI Music Generation</li>
+                        <li><i class="fas fa-globe"></i> 150+ Platform Distribution Network</li>
+                        <li><i class="fas fa-share-alt"></i> Multi-Platform Social Integration (Instagram, TikTok, Snapchat, Facebook, Twitter, YouTube)</li>
+                        <li><i class="fas fa-chart-line"></i> Real-time Analytics & Insights</li>
+                        <li><i class="fas fa-mobile-alt"></i> Mobile-First User Experience</li>
+                        <li><i class="fas fa-shield-alt"></i> Rights Protection & Management</li>
                     </ul>
-                    <div class="service-link">
-                        <a href="#contact">Learn More <i class="fas fa-arrow-right"></i></a>
-                    </div>
+                    
+                    <a href="https://mehran0031.github.io/dh/" class="btn btn-primary">
+                        <span>Visit Digital Harmony Studio</span>
+                        <i class="fas fa-external-link-alt"></i>
+                    </a>
                 </div>
                 
-                <div class="service-card">
-                    <div class="service-icon">
-                        <i class="fas fa-globe"></i>
-                        <div class="icon-bg"></div>
-                    </div>
-                    <h3 class="service-title">Global Distribution</h3>
-                    <p class="service-description">
-                        Distribute your music to 150+ streaming platforms worldwide including Spotify, 
-                        Apple Music, YouTube Music, Amazon Music, and many more.
-                    </p>
-                    <ul class="service-features">
-                        <li><i class="fas fa-check"></i> 150+ streaming platforms</li>
-                        <li><i class="fas fa-check"></i> Worldwide reach</li>
-                        <li><i class="fas fa-check"></i> Automated distribution</li>
-                        <li><i class="fas fa-check"></i> Rights management</li>
-                    </ul>
-                    <div class="service-link">
-                        <a href="#contact">Learn More <i class="fas fa-arrow-right"></i></a>
-                    </div>
-                </div>
-                
-                <div class="service-card">
-                    <div class="service-icon">
-                        <i class="fas fa-chart-line"></i>
-                        <div class="icon-bg"></div>
-                    </div>
-                    <h3 class="service-title">Analytics & Insights</h3>
-                    <p class="service-description">
-                        Comprehensive analytics dashboard providing real-time insights into your music 
-                        performance across all platforms and social media channels.
-                    </p>
-                    <ul class="service-features">
-                        <li><i class="fas fa-check"></i> Real-time analytics</li>
-                        <li><i class="fas fa-check"></i> Performance tracking</li>
-                        <li><i class="fas fa-check"></i> Audience insights</li>
-                        <li><i class="fas fa-check"></i> Revenue reporting</li>
-                    </ul>
-                    <div class="service-link">
-                        <a href="#contact">Learn More <i class="fas fa-arrow-right"></i></a>
+                <div class="dh-visual">
+                    <img src="https://raw.githubusercontent.com/mehran0031/dh/main/dh_logo_main.jpg" alt="Digital Harmony Studio" class="dh-logo">
+                    <div class="dh-stats">
+                        <div class="stat-item">
+                            <span class="stat-number">150+</span>
+                            <span class="stat-label">Platforms</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">AI</span>
+                            <span class="stat-label">Powered</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">Global</span>
+                            <span class="stat-label">Reach</span>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -1278,71 +763,64 @@
     <!-- About Section -->
     <section id="about" class="about">
         <div class="container">
-            <div class="about-content">
-                <div class="about-text">
-                    <h2>Innovation Meets Creativity</h2>
-                    <p class="about-description">
-                        Digital Harmony Studio represents the convergence of artificial intelligence and musical creativity. 
-                        Founded by Mehran Aghazadeh with the vision of democratizing music production and distribution, 
-                        we empower artists worldwide with cutting-edge technology and comprehensive distribution networks.
+            <div class="section-header">
+                <span class="section-tag">Professional Background</span>
+                <h2 class="section-title">Expertise & Experience</h2>
+                <p class="section-subtitle">
+                    Combining systematic quality assurance methodologies with innovative AI technology development 
+                    to create robust, scalable solutions for the music industry.
+                </p>
+            </div>
+            
+            <div class="about-grid">
+                <div class="about-content">
+                    <h3>Quality Assurance Excellence</h3>
+                    <p>
+                        <strong>ITMG Agile Tester Certified</strong> with extensive experience in systematic testing 
+                        methodologies, automation frameworks, and quality management systems. Successfully improved 
+                        testing efficiency by 35% and accuracy by 40% through innovative approaches.
                     </p>
-                    <p class="about-description">
-                        Our platform combines advanced AI music generation algorithms with seamless integration to major 
-                        streaming platforms and social media networks including Spotify, Apple Music, YouTube, Instagram, 
-                        TikTok, Snapchat, Facebook, and Twitter. We believe every artist deserves access to 
-                        professional-grade tools and global distribution channels.
+                    <p>
+                        Led international teams of 110+ members, implementing comprehensive quality assurance 
+                        processes across multiple projects. Specialized in agile testing methodologies, 
+                        continuous integration, and performance optimization.
                     </p>
-                    
-                    <div class="about-features">
-                        <div class="feature-item">
-                            <i class="fas fa-award"></i>
-                            <div class="feature-text">
-                                <h4>Industry Leading</h4>
-                                <p>Cutting-edge AI technology</p>
-                            </div>
-                        </div>
-                        <div class="feature-item">
-                            <i class="fas fa-users"></i>
-                            <div class="feature-text">
-                                <h4>Global Community</h4>
-                                <p>Artists worldwide</p>
-                            </div>
-                        </div>
-                        <div class="feature-item">
-                            <i class="fas fa-rocket"></i>
-                            <div class="feature-text">
-                                <h4>Innovation First</h4>
-                                <p>Continuous development</p>
-                            </div>
-                        </div>
-                        <div class="feature-item">
-                            <i class="fas fa-heart"></i>
-                            <div class="feature-text">
-                                <h4>Artist Focused</h4>
-                                <p>Creator empowerment</p>
-                            </div>
-                        </div>
-                    </div>
+                    <p>
+                        Currently applying these systematic approaches to AI music technology development, 
+                        ensuring Digital Harmony Studio meets the highest standards of reliability and performance.
+                    </p>
                 </div>
                 
-                <div class="about-visual">
-                    <div class="stats-container">
-                        <div class="stat-card">
-                            <span class="stat-number">150+</span>
-                            <span class="stat-label">Platforms</span>
-                        </div>
-                        <div class="stat-card">
-                            <span class="stat-number">AI</span>
-                            <span class="stat-label">Powered</span>
-                        </div>
-                        <div class="stat-card">
-                            <span class="stat-number">24/7</span>
-                            <span class="stat-label">Support</span>
-                        </div>
-                        <div class="stat-card">
-                            <span class="stat-number">Global</span>
-                            <span class="stat-label">Reach</span>
-                        </div>
+                <div class="skills-grid">
+                    <div class="skill-item">
+                        <i class="fas fa-cogs"></i>
+                        <h4>Agile Testing</h4>
+                        <p>ITMG Certified</p>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fas fa-robot"></i>
+                        <h4>AI Development</h4>
+                        <p>Music Technology</p>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fas fa-users"></i>
+                        <h4>Team Leadership</h4>
+                        <p>110+ Members</p>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fas fa-chart-line"></i>
+                        <h4>Process Optimization</h4>
+                        <p>35% Efficiency Gain</p>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fas fa-mobile-alt"></i>
+                        <h4>Mobile Testing</h4>
+                        <p>Cross-Platform</p>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fas fa-shield-alt"></i>
+                        <h4>Quality Assurance</h4>
+                        <p>40% Accuracy Improvement</p>
                     </div>
                 </div>
             </div>
@@ -1353,59 +831,33 @@
     <section id="contact" class="contact">
         <div class="container">
             <div class="contact-content">
-                <div class="contact-info">
-                    <h2>Get In Touch</h2>
-                    <p>
-                        Ready to revolutionize your music creation and distribution? Contact us to learn more 
-                        about our AI-powered platform and how we can help you reach a global audience.
-                    </p>
-                    
-                    <div class="contact-details">
-                        <div class="contact-item">
-                            <i class="fas fa-envelope"></i>
-                            <h4>Email Us</h4>
-                            <p><a href="mailto:Digital.Harmony.Studio@icmoil.com">Digital.Harmony.Studio@icmoil.com</a></p>
-                        </div>
-                        <div class="contact-item">
-                            <i class="fas fa-user"></i>
-                            <h4>Founder</h4>
-                            <p><a href="https://mehran0031.github.io/">Mehran Aghazadeh</a></p>
-                        </div>
-                        <div class="contact-item">
-                            <i class="fab fa-linkedin"></i>
-                            <h4>LinkedIn</h4>
-                            <p><a href="https://www.linkedin.com/in/mehran-aghazadeh/">Professional Profile</a></p>
-                        </div>
-                        <div class="contact-item">
-                            <i class="fab fa-instagram"></i>
-                            <h4>Instagram</h4>
-                            <p><a href="https://instagram.com/digitalharmonystudio">@digitalharmonystudio</a></p>
-                        </div>
-                    </div>
-                </div>
+                <h2>Let's Connect</h2>
+                <p>
+                    Interested in AI music technology, quality assurance innovation, or potential collaborations? 
+                    I'm always open to discussing new opportunities and sharing insights.
+                </p>
                 
-                <div class="contact-form">
-                    <form id="contact-form">
-                        <div class="form-group">
-                            <label for="name">Full Name</label>
-                            <input type="text" id="name" name="name" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="email">Email Address</label>
-                            <input type="email" id="email" name="email" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="subject">Subject</label>
-                            <input type="text" id="subject" name="subject" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="message">Message</label>
-                            <textarea id="message" name="message" required></textarea>
-                        </div>
-                        <button type="submit" class="form-submit">
-                            Send Message <i class="fas fa-paper-plane"></i>
-                        </button>
-                    </form>
+                <div class="contact-links">
+                    <a href="mailto:Digital.Harmony.Studio@icmoil.com" class="contact-link">
+                        <i class="fas fa-envelope"></i>
+                        <span>Email</span>
+                    </a>
+                    <a href="https://mehran0031.github.io/dh/" class="contact-link">
+                        <i class="fas fa-globe"></i>
+                        <span>Digital Harmony Studio</span>
+                    </a>
+                    <a href="https://mehran0031.github.io/" class="contact-link">
+                        <i class="fab fa-github"></i>
+                        <span>GitHub Portfolio</span>
+                    </a>
+                    <a href="https://www.linkedin.com/in/mehran-aghazadeh/" class="contact-link">
+                        <i class="fab fa-linkedin"></i>
+                        <span>LinkedIn</span>
+                    </a>
+                    <a href="https://instagram.com/digitalharmonystudio" class="contact-link">
+                        <i class="fab fa-instagram"></i>
+                        <span>Instagram</span>
+                    </a>
                 </div>
             </div>
         </div>
@@ -1414,141 +866,40 @@
     <!-- Footer -->
     <footer class="footer">
         <div class="container">
-            <div class="footer-content">
-                <div class="footer-section">
-                    <h4>Digital Harmony Studio</h4>
-                    <p>
-                        Revolutionizing music creation and distribution through artificial intelligence. 
-                        Empowering artists worldwide with cutting-edge technology and global reach.
-                    </p>
-                </div>
-                <div class="footer-section">
-                    <h4>Services</h4>
-                    <ul class="footer-links">
-                        <li><a href="#services">AI Music Generation</a></li>
-                        <li><a href="#services">Global Distribution</a></li>
-                        <li><a href="#social">Social Media Integration</a></li>
-                        <li><a href="#services">Analytics & Insights</a></li>
-                    </ul>
-                </div>
-                <div class="footer-section">
-                    <h4>Company</h4>
-                    <ul class="footer-links">
-                        <li><a href="#about">About Us</a></li>
-                        <li><a href="#contact">Contact</a></li>
-                        <li><a href="privacy.html">Privacy Policy</a></li>
-                        <li><a href="terms.html">Terms of Service</a></li>
-                    </ul>
-                </div>
-                <div class="footer-section">
-                    <h4>Connect</h4>
-                    <ul class="footer-links">
-                        <li><a href="mailto:Digital.Harmony.Studio@icmoil.com">Email Support</a></li>
-                        <li><a href="https://mehran0031.github.io/">Mehran Aghazadeh - Founder</a></li>
-                        <li><a href="https://www.linkedin.com/in/mehran-aghazadeh/">LinkedIn Profile</a></li>
-                        <li><a href="https://instagram.com/digitalharmonystudio">Instagram</a></li>
-                        <li><a href="#social">Platform Integrations</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="footer-bottom">
-                <p>&copy; 2025 Digital Harmony Studio. All rights reserved. | AI-Powered Music Innovation</p>
-            </div>
+            <p>&copy; 2025 Mehran Aghazadeh. All rights reserved. | Digital Harmony Studio - AI Music Innovation</p>
         </div>
     </footer>
 
     <script>
-        // Loading screen
-        window.addEventListener('load', function() {
-            setTimeout(() => {
-                document.getElementById('loading-screen').style.opacity = '0';
-                setTimeout(() => {
-                    document.getElementById('loading-screen').style.display = 'none';
-                }, 500);
-            }, 3000);
-        });
-
         // Smooth scrolling for navigation links
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             anchor.addEventListener('click', function (e) {
                 e.preventDefault();
-                const target = document.querySelector(this.getAttribute('href'));
-                if (target) {
-                    target.scrollIntoView({
-                        behavior: 'smooth',
-                        block: 'start'
-                    });
-                }
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
             });
         });
 
         // Navbar background on scroll
         window.addEventListener('scroll', function() {
-            const navbar = document.getElementById('navbar');
+            const navbar = document.querySelector('.navbar');
             if (window.scrollY > 100) {
-                navbar.style.background = 'rgba(26, 31, 58, 0.98)';
+                navbar.style.background = 'rgba(255, 255, 255, 0.98)';
             } else {
-                navbar.style.background = 'rgba(26, 31, 58, 0.95)';
+                navbar.style.background = 'rgba(255, 255, 255, 0.95)';
             }
         });
 
-        // Mobile navigation toggle
-        const navToggle = document.getElementById('nav-toggle');
-        const navMenu = document.getElementById('nav-menu');
-
-        navToggle.addEventListener('click', function() {
-            navMenu.classList.toggle('active');
-        });
-
-        // Contact form handling
-        document.getElementById('contact-form').addEventListener('submit', function(e) {
-            e.preventDefault();
-            
-            // Get form data
-            const formData = new FormData(this);
-            const name = formData.get('name');
-            const email = formData.get('email');
-            const subject = formData.get('subject');
-            const message = formData.get('message');
-            
-            // Create mailto link
-            const mailtoLink = `mailto:Digital.Harmony.Studio@icmoil.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(`Name: ${name}\nEmail: ${email}\n\nMessage:\n${message}`)}`;
-            
-            // Open email client
-            window.location.href = mailtoLink;
-            
-            // Show success message
-            alert('Thank you for your message! Your email client should open now. If not, please email us directly at Digital.Harmony.Studio@icmoil.com');
-            
-            // Reset form
-            this.reset();
-        });
-
-        // Add animation on scroll
-        const observerOptions = {
-            threshold: 0.1,
-            rootMargin: '0px 0px -50px 0px'
-        };
-
-        const observer = new IntersectionObserver(function(entries) {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    entry.target.style.opacity = '1';
-                    entry.target.style.transform = 'translateY(0)';
-                }
-            });
-        }, observerOptions);
-
-        // Observe platform cards and other elements
-        document.querySelectorAll('.platform-card, .service-card, .stat-card, .feature-item').forEach(el => {
-            el.style.opacity = '0';
-            el.style.transform = 'translateY(20px)';
-            el.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
-            observer.observe(el);
+        // Add loading animation
+        window.addEventListener('load', function() {
+            document.body.style.opacity = '0';
+            document.body.style.transition = 'opacity 0.5s ease-in-out';
+            setTimeout(() => {
+                document.body.style.opacity = '1';
+            }, 100);
         });
     </script>
 </body>
 </html>
-
-
 
